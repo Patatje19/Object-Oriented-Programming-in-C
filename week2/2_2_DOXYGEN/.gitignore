@@ -1,0 +1,5 @@
+#exclude HTML folder Linux
+html/
+
+#exclude HTML folder Windows
+html\

@@ -1,0 +1,28 @@
+1 Wat doet de contructor van de klasse book?
+Er word een referentie naar text, author en title opgeslagen
+
+**** Niet helemaal. Je krijgt een referentie door vanuit de aanroeper naar de verschillende velden. De constructor slaat
+**** de strings op in zichzelf. Hierdoor bevat het object boek zijn eigen data
+
+
+2 Hoe noemen we de tekst tussen de : (dubbelepunt) en de { (krulhaak) bij de constructor?
+De initialisatielijst
+
+*** correct
+
+3 Welke functies van de klasse book zijn van buitenaf toegankelijk?
+De variabelen beschreven onder public.
+
+*** de vraag is welke functies. Niet de variabelen. Let op het verschil tussen private en public
+
+4 Waarom denk je de schrijver van deze code er voor heeft gekozen sommige functies private
+te maken?
+Dit zodat die dit deel kan wijzigen zonder dat het de rest van de applicatie beinvloed
+
+*** correct
+
+5 Waarom staat er in de .cpp voor elke functie “book::”?
+Buiten de klassen declaratie moet je voor de naam van de functie zijn klasse naam en :: zetten
+dit is vergelijkbaar met klasse std en :: uit de vorige cursus
+
+*** correct

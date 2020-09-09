@@ -1,0 +1,11 @@
+Vcc       (pin 16)      = 3.3V Arduino;
+GND       (pin 8 )      = GND  Arduino;
+
+SHcp      (pin 11)      = GPIO pin 10 (dient als SCLK);
+STcp      (pin 12)      = GPIO pin 11 (dient als SS);
+Ds        (pin 14)      = GPIO pin 12 (dient als MOSI);
+
+MR        (pin 10)      = 3.3V Arduino;
+OE        (pin 13)      = GND  Arduino;
+
+Q1 t/m Q4 (pin 1 t/m 4) = LEDs;

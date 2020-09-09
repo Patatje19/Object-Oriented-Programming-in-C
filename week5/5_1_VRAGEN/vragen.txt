@@ -1,0 +1,10 @@
+Hoeveel GPIO pinnen heb je nodig om 3 SPI peripherals (met zowel input als output) aan te
+sluiten? Maak een lijstje van de functies van deze GPIO’s.
+
+Je hebt 6 pinnen nodig voor 3 SPI peripherals:
+SLC, MOSI, MISO, SS1, SS2, SS3
+
+Wat is de functie van de Q7’ output pin van een 74HC595 chip?
+
+Dit is de output die het mogelijk maakt een "Daisy chain" van verschillende
+HC595 chips te maken, het betreft een serial output pin.

@@ -1,0 +1,22 @@
+Wat betekent de term ‘bare metal’?
+Bare-metal is een term die je veel tegen komt in server-omgevingen. Dit betekent
+dat je meestal een operating system direct op de hardware installeert. Dit in
+tegenstelling tot de vaak gebruikte virtualisatiepakketten. Dit heeft tot gevolg
+dat de server alleen dat pakket zal draaien.
+
+Om binnen de scope van de opdracht te blijven denk ik echter dat hier bare metal
+programming word bedoeld.
+
+Dat betekent dat je naast de applicatie niks anders op de microcontroller
+draait, dus geen los OS. Voor krachtigere microcontrollers zijn er wel real
+time OS'es beschikbaar, die wel los van een applicatie draaien.
+
+Wat is het nut van een ‘weak pull-up’?
+Dat je zekerheid krijgt of je GPIO pin high/low is en niet floating wat kan
+leiden tot undefinied behaviour. Ook behoud je hiermee de standaard 0/1 om
+je poort mee aan of uit te zetten (deze word niet omgedraaid).
+
+Wat is het nut van een namespace, welk probleem kan je ermee vermijden?
+Een namespace dient om "name-clashes" te voorkomen! Als je meerdere library's
+gebruikt dan is er een kans dat dezelfde naam meerdere keren voorkomt. Om er
+voor te zorgen dat die geen clash word gebruik je namespaces.

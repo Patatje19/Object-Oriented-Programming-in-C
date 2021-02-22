@@ -1,0 +1,11 @@
+klas v1a;
+
+auto a = v1a;				=type class klas
+auto b = a.name;			=type std::array< char, 3 >
+auto c = a.students[ 3 ];	=type class student
+auto d = c.name;			=type std::string
+auto e = c.number;		=type int
+auto f = c.marks[ 7 ];		=type class mark
+auto g = f.course;			=type course&
+auto h = f.number;		=type uint8_t
+auto i = g.name;			=type std::vector< char >

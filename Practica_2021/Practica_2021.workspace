@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Practica_2021" Database="" Version="10.0.0">
+  <VirtualDirectory Name="week1">
+    <Project Name="1_2-3_BOEKEN-MAIN" Path="week1/1_2-3_BOEKEN-MAIN/1_2-3_BOEKEN-MAIN.project" Active="No"/>
+    <Project Name="1_4_MEUBELS" Path="week1/1_4_MEUBELS/1_4_MEUBELS.project" Active="No"/>
+    <Project Name="1_5_GEVULDE-RECHTHOEK" Path="week1/1_5_GEVULDE-RECHTHOEK/1_5_GEVULDE-RECHTHOEK.project" Active="No"/>
+    <Project Name="1_6_SAMENGESTELD-OBJECT" Path="week1/1_6_SAMENGESTELD-OBJECT/1_6_SAMENGESTELD-OBJECT.project" Active="No"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="week2">
+    <Project Name="2_4_ADT_VECTOR" Path="week2/2_4_ADT_VECTOR/2_4_ADT_VECTOR.project" Active="Yes"/>
+  </VirtualDirectory>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="1_2-3_BOEKEN-MAIN" ConfigName="Debug"/>
+      <Project Name="1_4_MEUBELS" ConfigName="Debug"/>
+      <Project Name="1_5_GEVULDE-RECHTHOEK" ConfigName="Debug"/>
+      <Project Name="1_6_SAMENGESTELD-OBJECT" ConfigName="Debug"/>
+      <Project Name="2_4_ADT_VECTOR" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="1_2-3_BOEKEN-MAIN" ConfigName="Release"/>
+      <Project Name="1_4_MEUBELS" ConfigName="Release"/>
+      <Project Name="1_5_GEVULDE-RECHTHOEK" ConfigName="Release"/>
+      <Project Name="1_6_SAMENGESTELD-OBJECT" ConfigName="Release"/>
+      <Project Name="2_4_ADT_VECTOR" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
